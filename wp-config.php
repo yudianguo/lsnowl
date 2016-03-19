@@ -20,16 +20,16 @@
 
 // ** MySQL 设置 - 具体信息来自您正在使用的主机 ** //
 /** WordPress数据库的名称 */
-define('DB_NAME', 'lsnowl_dev');
+define('DB_NAME', 'lsnowl');
 
 /** MySQL数据库用户名 */
-define('DB_USER', 'homestead');
+define('DB_USER', 'root');
 
 /** MySQL数据库密码 */
-define('DB_PASSWORD', 'secret');
+define('DB_PASSWORD', 'a123456');
 
 /** MySQL主机 */
-define('DB_HOST', '192.168.33.11');
+define('DB_HOST', '127.0.0.1');
 
 /** 创建数据表时默认的文字编码 */
 define('DB_CHARSET', 'utf8mb4');
@@ -47,14 +47,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '$d];Tj.+(4|*Jw1_#{gZR4`8[DVN/<`K_9>Qj0RO`t{Ty?%`lWx85=]c2_l*,.q-');
-define('SECURE_AUTH_KEY',  '8&i1nfeR D,F$J.({2sY8Yu+r?C+.c]~9wI] :?N;O?d6~~li.239+x(bcQ<VxzV');
-define('LOGGED_IN_KEY',    '|1<c>BFCTe|r[@w~+}!SuqVuoZAc|jb7E_2)k`_C<d#9p0X-Z(`^tDlLDUM&}q7q');
-define('NONCE_KEY',        'J?QsUe]KPfN4g>+FqAe,MvC*Ic5e;Gj7zJfd=?{$GWy{M^UrZ,8^pZXu)8=C(~:L');
-define('AUTH_SALT',        'v%59d<|yQ8th</a3*^[m8 62-vlEmj7l/.JvZN)3xx|!64|x*M>(Q@P@;N!WH3Ct');
-define('SECURE_AUTH_SALT', ':v_k!KzM$E<>021)kq0MAHg%/K1Y&AsCG(mSKnmH{lns-`}4}g##I`HYIC<-Y5>[');
-define('LOGGED_IN_SALT',   'P;O_.HL{pdMzM_Dw5 A+H|Z?G:vuU<8^n=@$|UTi.RQ+M*eKd?YCB{!u[R_#Dz:q');
-define('NONCE_SALT',       '9(T}v*n@>Omyx+O3* Z^o|R?IZEU|9[.9>)G}2t:vd:MQ2Cfq*[TP=6B}z0DO]_[');
+define('AUTH_KEY',         '2yE{wWMC<c9x/knRa#c8wbpr$X(?+?i$N{E6KTUa%gDGc#dlxSvO5mhap&x|HE$>');
+define('SECURE_AUTH_KEY',  'W@w_X<#ir-F{abEK`_LRX-6A=wDExSj]n4;EZ%)h>FU6=d_$ZpMi{$KMpSpV>}3L');
+define('LOGGED_IN_KEY',    'H,!YAP.0b$^,{r_3vK$WtL$!M7h;pXpMUzrd LK/4{ 4SdP`-DFVe;|}I|M; nR@');
+define('NONCE_KEY',        '>yZscn01QcvO99e!1`Ydr,y$U.|t5vq&W}r1]NX ^XynH9{rJT;>}t%{_k+t:) P');
+define('AUTH_SALT',        'BG-^k;:Fi{6oZBzkp+?Nj:Hd0TL%<#`f@s)V!`is[ jsT^y{n]VV}@Ag#f8dq$WW');
+define('SECURE_AUTH_SALT', ']VE+[f~NLpRCG>d1<2,,E[A;HKz4Ct|Fu2z$>u-fZVO&r1UC=IX6063Y X~GTr}{');
+define('LOGGED_IN_SALT',   'XN2.#lD02W8F[ko;`}kRVZ+qTs8,b6j3@V=QUl< g9/kb;vHl;I(k-gvKt%oj@b[');
+define('NONCE_SALT',       'u+?JRiW7/FQfOIh!:9$@^aI(jW8y^u9>aW&HC!_;{RPX]Cq>]~c,zo(^yAMAW@4^');
 
 /**#@-*/
 
